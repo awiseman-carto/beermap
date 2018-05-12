@@ -379,6 +379,8 @@ var brewfillyellow = map.selectAll(".beer")
           .transition()
           .duration(10000)
           .style("opacity", 0)
+          .transition()
+          .duration(10000)          
           .style("visibility","hidden")
           .remove();
 
