@@ -376,7 +376,7 @@ var brewfillyellow = map.selectAll(".beer")
         d3.selectAll("#mobilewarn")
           .style("opacity", 1)
           .transition()
-          .duration(300)
+          .duration(5000)
           .style("opacity", 0)
           .remove();
 
