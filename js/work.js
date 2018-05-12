@@ -204,7 +204,7 @@ var menuButton = menuDiv.append("button")
         //btnColor("button")
         // Update whether or not the elements are active
         bikes.active = active;
-      },
+      }
   );
 
 // load the proj and all the data
