@@ -74,7 +74,6 @@ option {
     position: absolute;
     color: #777;
     top: 610px;
-    float: right;
     font-size: 0.5em;
 }
 
@@ -94,7 +93,7 @@ option {
 }
 
 #bikedesc{
-    position: absolute;
+    position: relative;
     top: 112px;
     left: 465px;
     height: 20px;
@@ -146,32 +145,28 @@ option {
     letter-spacing: 5px;
 }
 
-/* I tried making a mobile warning but it didn't work */
-
 #mobilewarn{
   position: absolute;
-  top: 150px;
-  left: 120px;
+  top: 120px;
+  left: 100px;
   padding: 0 5px 10px 10px;
   font-size: 0.8em;
   background: rgba(34, 34, 34, 0.7);
   color: #bbb;
-  visibility: hidden;
+  visibility:hidden;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
   #mobilewarn{
     position: absolute;
-    top: 150px;
-    left: 120px;
+    top: 120px;
+    left: 100px;
     padding: 0 5px 10px 10px;
     font-size: 0.8em;
-    background: rgba(34, 34, 34, 0.7);
     color: #bbb;
-    visibility: visible;
+    visibility:visible;
   }
 }
-
 
 .labelname {
       font-family: "adelle"
