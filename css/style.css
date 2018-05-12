@@ -146,6 +146,8 @@ option {
     letter-spacing: 5px;
 }
 
+/* I tried making a mobile warning but it didn't work */
+
 #mobilewarn{
   position: absolute;
   top: 150px;
