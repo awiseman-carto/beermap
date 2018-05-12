@@ -74,7 +74,6 @@ option {
     position: absolute;
     color: #777;
     top: 610px;
-    float: right;
     font-size: 0.5em;
 }
 
@@ -94,11 +93,12 @@ option {
 }
 
 #bikedesc{
-    position: absolute;
+    position: relative;
     top: 112px;
     left: 465px;
     height: 20px;
     padding-top: 10px;
+    float:right;
     text-align: right;
     font-size: 0.8em;
 }
