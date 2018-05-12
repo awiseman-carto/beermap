@@ -1,0 +1,279 @@
+/* Stylesheet by Andrew Wiseman, 2018 */
+
+body {
+  background-color: #ccc;
+}
+
+h1{
+    font-family: 'adelle';
+    margin: 20px 0 0 0;
+}
+
+p {
+    font-family: 'adelle';
+    margin: 10px 0 0 0;
+}
+
+
+/* unvisited link */
+a:link {
+    color: gray;
+}
+
+/* visited link */
+a:visited {
+    color: #888;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+img {
+    max-width: 100%;
+    height: 40px;
+}
+
+.title {
+    font-family: 'adelle';
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/*.map {
+    border: medium solid #999;
+    margin: 10px 0 0 20px;
+}*/
+
+.map {
+  border: medium solid #999;
+    margin: 0 0 0 0px;
+}
+
+select option {
+  background: #eee;
+  color: #111;
+  box-shadow: inset 20px 20px #111;
+  font-family: "adelle";
+}
+
+select option:hover {
+  color: #111;
+  box-shadow: inset 20px 20px #111;
+  font-family: "adelle";
+}
+
+option {
+    font-weight: normal;
+    background-color: #f9f9f9;
+    font-family: "adelle";
+}
+
+#credit{
+    position: absolute;
+    color: #777;
+    top: 610px;
+    float: right;
+    font-size: 0.5em;
+}
+
+#boxes{
+    position: absolute;
+    top: 85px;
+    left: 410px;
+    font-size: 0.8em;
+    text-align: right;
+}
+
+#description{
+    position: absolute;
+    top: 65px;
+    left: 400px;
+    text-align: right;
+}
+
+#bikedesc{
+    position: absolute;
+    top: 112px;
+    left: 465px;
+    height: 20px;
+    padding-top: 10px;
+    text-align: right;
+    font-size: 0.8em;
+}
+
+#bikelegend{
+    position: absolute;
+    top: 142px;
+    left: 467px;
+    text-align: left;
+    font-size: 0.8em;
+}
+
+.key-dot {
+    display: inline-block;
+    height: 10px;
+    margin-right: .5em;
+    width: 10px;
+    background: tan;
+}
+
+#md {
+    position: absolute;
+    transform: rotate(45deg);
+    top: 232px;
+    left: 525px;
+    height: 20px;
+    padding-top: 10px;
+    text-align: right;
+    font-size: 0.8em;
+    color: #bbb;
+    letter-spacing: 6px;
+}
+
+#va {
+    position: absolute;
+    transform: rotate(45deg);
+    top: 522px;
+    left: 55px;
+    height: 20px;
+    padding-top: 10px;
+    text-align: right;
+    font-size: 0.8em;
+    color: #bbb;
+    letter-spacing: 5px;
+}
+
+.labelname {
+      font-family: "adelle"
+}
+
+.website {
+  font-size: 0.7em;
+  font-family: "adelle";
+
+}
+
+.details {
+  font-size: 0.7em;
+  font-family: "adelle";
+  float:left;
+}
+
+.buttonPos {
+  position: absolute;
+  top: 125px;
+  left: 645px;
+}
+
+.infolabel {
+    position: absolute;
+    display: inline-block;
+    min-width: 100px;
+    color: #fff;
+    border: solid thin #fff;
+    padding: 5px 10px;
+    background: rgba(34, 34, 34, 0.7);
+    font-family: "adelle";
+}
+
+.metrolabel {
+    position: absolute;
+    display: inline-block;
+    min-width: 100px;
+    color: #fff;
+    border: solid thin #fff;
+    padding: 5px 10px;
+    background: rgba(34, 34, 34, 0.7);
+    font-family: "adelle";
+    font-size: 0.8em;
+}
+
+.infolabel h1 {
+    margin: 0 0px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
+    font-family: "adelle";
+}
+
+.legend1{
+  float: left;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 30px 10px 10px 30px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    background-image:url('../img/bike.svg');
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 6px #999;
+}
+
+.button:hover, .button.regular.hover {
+    background-color:red; /* Green */
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(3px);
+}
+
+
+.button.regular {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 15px 32px 32px;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 37px;
+    width: 37px;
+    background-image:url('../img/bike.svg');
+    background-repeat:no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #999;
+}
+
+#buttonCentre{
+      background-color: #4CAF50;
+}
+
+#buttonCentre:hover{
+      background-color:lightgreen;
+}
+
+.gratLines {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 1px;
+}
+
+.gratBackground {
+    fill: #ddd;
+}
+
+.hidden {
+  display: none;
+}
+
+.right {
+    float: right;
+}

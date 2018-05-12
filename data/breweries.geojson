@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "breweries",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": null, "name": "Three Stars Brewery", "food": "yes", "kidfriendl": "yes", "outside": "yes", "website": "3starsbrewing.com", "address": "6400 Chillum Pl NW" }, "geometry": { "type": "Point", "coordinates": [ -77.012806196127883, 38.967619411514228 ] } },
+{ "type": "Feature", "properties": { "id": null, "name": "Atlas Brew Works", "food": "no", "kidfriendl": "no", "outside": "yes", "website": "atlasbrewworks.com", "address": "2052 West Virginia Ave NE" }, "geometry": { "type": "Point", "coordinates": [ -76.981477392484834, 38.914850698359245 ] } },
+{ "type": "Feature", "properties": { "id": null, "name": "DC Brau", "food": "yes", "kidfriendl": "no", "outside": "no", "website": "dcbrau.com", "address": "3178 Bladensburg Rd NE" }, "geometry": { "type": "Point", "coordinates": [ -76.960245971482109, 38.929754381685797 ] } },
+{ "type": "Feature", "properties": { "id": null, "name": "Right Proper", "food": "yes", "kidfriendl": "no", "outside": "no", "website": "rightproperbrewing.com", "address": "920 Girard St NE" }, "geometry": { "type": "Point", "coordinates": [ -76.993179984986938, 38.926856029683535 ] } },
+{ "type": "Feature", "properties": { "id": null, "name": "Hellbender", "food": "no", "kidfriendl": "no", "outside": "yes", "website": "hellbenderbeer.com", "address": "5788 2nd St NE"  }, "geometry": { "type": "Point", "coordinates": [ -77.005259691082301, 38.960392772526284 ] } },
+{ "type": "Feature", "properties": { "id": null, "name": "Public Option", "food": "yes", "kidfriendl": "no", "outside": "yes", "website": "thepublicoptiondc.com", "address": "1601 Rhode Island Ave NE"  }, "geometry": { "type": "Point", "coordinates": [ -76.981728142357397, 38.926168790676954 ] } },
+{ "type": "Feature", "properties": { "id": null, "name": "Bluejacket", "food": "yes", "kidfriendl": "yes", "outside": "yes", "website": "bluejacketdc.com", "address": "300 Tingey St SE"  }, "geometry": { "type": "Point", "coordinates": [ -77.000769902721501, 38.875187763341309 ] } },
+{ "type": "Feature", "properties": { "id": null, "name": "Bardo Brewpub", "food": "no", "kidfriendl": "yes", "outside": "yes", "website": "bardo.beer", "address": "25 Potomac Ave SE"  }, "geometry": { "type": "Point", "coordinates": [ -77.007580197228165, 38.870191872020541 ] } }
+]
+}

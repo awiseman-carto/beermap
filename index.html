@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>DC Beer Finder</title>
+
+		<!--put your external stylesheet links here-->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://use.typekit.net/udz3soi.css">
+		<!--[if IE<9]>
+			<link rel="stylesheet" href="css/style.ie.css">
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div id="title">
+			<h1><img style="vertical-align:bottom" src=img/dcflag.svg> DC Beer Finder</h1>
+		</div>
+			<div id="map">
+				<div id="description">
+					<p>Select what you want out of a brewery</p>
+				</div>
+				<div id="bikedesc">
+					<p>Show/hide bike information:</p>
+				</div>
+			<div id = "md">
+				<p>Maryland</p>
+			</div>
+			<div id = "va">
+				<p>Virginia</p>
+			</div>
+				<div id="bikelegend">
+					<div class="legend1"> <p><span class="key-dot"></span>Steep Area
+						<svg height="10" width="26">
+						<line x1="11" y1="0" x2="21" y2="10" style="stroke:lightgreen;stroke-width:2" />
+						</svg>Bike Lane</p>
+					</div>
+				</div>
+
+		<!-- Checkboxes -->
+    <div id="boxes" class="filter_options">
+			<p>
+        <input class="filter_button" id="food" name = "checkb" value="foods" type="checkbox">Food</input>
+        <input class="filter_button" id="kid" name = "checkb" value="kids" type="checkbox">Kid-Friendly</input>
+				<input class="filter_button" id="outdoor" name = "checkb" value="outdoor" type="checkbox">Outdoor Space</input>
+			</p>
+				<!--<input class="filter_button" id="showall" name = "checkb" value="showall" type="checkbox">Show All</input>-->
+		</div>
+
+		<div id="credit" class="right">
+			<p>Icons made from <a href="http://www.onlinewebfonts.com/icon">Icon Fonts</a> are licensed by CC BY 3.0. Data from <a href="opendata.dc.gov">dc.gov</a> and Andrew Wiseman</p>
+		</div>
+			</div>
+
+			<!--		<div id="instructions">
+					<h2>Hi</h2>
+				</div> -->
+		<!--put your initial page content here-->
+		<!--you can also use this space for internal scripts or stylesheets;
+		place these within <script> or <style> tags-->
+		<!--<script type="text/javascript" src="lib/jquery-3.3.1.js"></script>-->
+		<!-- topojson -->
+		<!-- d3 -->
+    <script type="text/javascript" src="lib/d3/d3.js"></script>
+    <script type="text/javascript" src="lib/d3-queue/d3-queue.js"></script>
+    <!-- main script -->
+    <script type="text/javascript" src="js/work.js"></script>
+
+		<!--put your external script links here-->
+
+
+	</body>
+</html>
