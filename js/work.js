@@ -373,6 +373,13 @@ var brewfillyellow = map.selectAll(".beer")
         // just call update
         //d3.selectAll(".filter_options input").on("change", update);
 
+        d3.selectAll("#mobilewarn")
+          .style("visibility", "visible")
+          .transition()
+          .duration(300)
+          .style("visibility", "hidden")
+          .remove();
+
         function updateData(){
           console.log("button")
         }
