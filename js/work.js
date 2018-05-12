@@ -204,7 +204,7 @@ var menuButton = menuDiv.append("button")
         //btnColor("button")
         // Update whether or not the elements are active
         bikes.active = active;
-      },
+      }
   );
 
 // load the proj and all the data
@@ -380,7 +380,7 @@ var brewfillyellow = map.selectAll(".beer")
           .duration(10000)
           .style("opacity", 0)
           .transition()
-          .duration(10000)          
+          .duration(10000)
           .style("visibility","hidden")
           .remove();
 
