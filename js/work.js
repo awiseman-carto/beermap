@@ -376,9 +376,9 @@ var brewfillyellow = map.selectAll(".beer")
         d3.selectAll("#mobilewarn")
           .style("visibility", "visible")
           .transition()
-          .duration(300)
+          .duration(5000)
           .style("visibility", "hidden")
-          .remove();        
+          .remove();
 
         function updateData(){
           console.log("button")
