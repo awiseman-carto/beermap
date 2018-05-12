@@ -147,8 +147,8 @@ option {
 
 #mobilewarn{
   position: absolute;
-  top: 420px;
-  left: 100px;
+  top: 220px;
+  left: 70px;
   padding: 0 5px 10px 10px;
   font-size: 0.8em;
   background: rgba(34, 34, 34, 0.7);
@@ -160,8 +160,8 @@ option {
 @media screen and (max-width: 1000px) {
   #mobilewarn{
     position: absolute;
-    top: 420px;
-    left: 100px;
+    top: 220px;
+    left: 70px;
     padding: 0 5px 10px 10px;
     font-size: 0.8em;
     color: #bbb;
