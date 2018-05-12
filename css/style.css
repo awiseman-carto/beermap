@@ -153,6 +153,7 @@ option {
   font-size: 0.8em;
   background: rgba(34, 34, 34, 0.7);
   color: #bbb;
+  opacity: 0;
   visibility:hidden;
 }
 
@@ -164,6 +165,7 @@ option {
     padding: 0 5px 10px 10px;
     font-size: 0.8em;
     color: #bbb;
+    opacity: 1;    
     visibility:visible;
   }
 }
